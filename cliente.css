@@ -1,0 +1,66 @@
+* {
+    right: 1000px;
+
+    
+}
+
+/* Estilo para a área do cliente */
+.section {
+    background-color: #e8edf3; /* Cor de fundo */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 30px; /* Espaçamento interno */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transição de hover */
+}
+
+.section:hover {
+    transform: scale(1.05); /* Efeito de escala no hover */
+}
+
+.section h2 {
+    color: #2c38dd; /* Cor do título */
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para o formulário */
+form label {
+    display: block; /* Exibição em bloco para alinhamento vertical */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 5px; /* Espaçamento inferior */
+    color: #495057; /* Cor do texto */
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da; /* Cor da borda */
+    border-radius: 5px; /* Cantos arredondados */
+    background-color: #fff; /* Cor de fundo */
+    transition: border-color 0.3s ease; /* Transição de hover */
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    outline: none; /* Remover contorno ao focar */
+    border-color: #007bff; /* Cor da borda ao focar */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição de hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}

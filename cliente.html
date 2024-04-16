@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cliente</title>
+    <link rel="stylesheet" href="cliente.css">
+    <style>
+        /* Estilo para o retângulo */
+        .section {
+            border: 2px solid #007bff; /* Cor da borda */
+            border-radius: 8px; /* Cantos arredondados */
+            padding: 200px; /* Espaçamento interno */
+            margin-bottom: 1px; /* Margem inferior */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <h2>Área do Cliente</h2>
+        <form action="/cliente.html" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br>
+            <label for="endereco">Endereço:</label><br>
+            <textarea id="endereco" name="endereco" required></textarea><br>
+            <label for="servico">Tipo de Serviço:</label><br>
+            <select id="servico" name="servico" required>
+                <option value="lavagem">Lavagem</option>
+                <option value="secagem">Secagem</option>
+                <option value="passar">Passar</option>
+            </select><br>
+            <label for="data">Data de Agendamento:</label><br>
+            <input type="date" id="data" name="data" required><br>
+            <label for="hora">Hora de Agendamento:</label><br>
+            <input type="time" id="hora" name="hora" required><br>
+            <button type="submit" class="button">Agendar</button>
+        </form>
+    </div>
+</body>
+
+</html>
